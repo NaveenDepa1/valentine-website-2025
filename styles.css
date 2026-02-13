@@ -87,16 +87,20 @@ body {
 }
 
 .secret-answer {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    margin-top: 0;
-    opacity: 0.2;
-    transition: opacity 0.3s;
-    transform: scale(0.7);
-    z-index: 2;
-    animation: subtle-hint 2s infinite alternate;
-    animation-delay: 5s;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  margin-top: 0;
+  opacity: 1;
+  transform: scale(1);
+  z-index: 2;
+  animation: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ff4d6d;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 6px 10px;
+  border-radius: 999px;
 }
 
 .secret-answer .cute-btn {
