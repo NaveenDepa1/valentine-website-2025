@@ -292,6 +292,14 @@ h2 {
     text-shadow: 2px 2px 4px rgba(255, 71, 87, 0.3);
 }
 
+.celebration-gif {
+  width: 220px;
+  max-width: 70vw;
+  height: auto;
+  margin: 12px auto 0;
+  display: block;
+}
+
 @keyframes subtle-hint {
     0% { opacity: 0.2; }
     100% { opacity: 0.3; }
